@@ -1,56 +1,180 @@
 {
-  "produtos": [
+  "albuns": [
     {
       "id": 1,
-      "nome": "Hambúrguer",
-      "descricao": "Pão, bife de hambúrguer 90g, salada e batata.",
-      "preco": 8.5,
-      "categoria_id": 1
+      "nome": "Old Trafford",
+      "descricao": "O Old Trafford é um estádio de futebol, localizado no distrito de Trafford, condado da Grande Manchester, Inglaterra. É a sede do Manchester United, clube da Premier League inglesa. Tendo uma capacidade de 74.310 pessoas.",
+      "localizacao": 53.463493, -2.292279,
+      "data": "15/05/2019",
+      "imagem": "https://i.postimg.cc/dVLNBXfd/old-T-noite.jpg"
     },
     {
       "id": 2,
-      "nome": "X-Búrguer",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata.",
-      "preco": 10.5,
-      "categoria_id": 1
+      "nome": "Torre Eiffel",
+      "descricao": "A Torre Eiffel é uma torre treliçada de ferro forjado no Champ de Mars, em Paris, França. Construída a partir de 1887, recebeu o nome do engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre.",
+      "localizacao": 48.862140, 2.289971,
+      "data": "20/01/2016",
+      "imagem": "https://i.postimg.cc/RVFnm5HY/eiffel-tarde.jpg"
     },
     {
       "id": 3,
-      "nome": "X-Bacon",
-      "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
-      "preco": 12.5,
-      "categoria_id": 1
+      "nome": "Satoru Gojo",
+      "descricao": "Satoru Gojo é um personagem fictício da série de anime e mangá Jujutsu Kaisen criado por Gege Akutami. Ele fez sua primeira aparição no prequel Jujutsu Kaisen 0 como o mestre de Yuta Okkotsu, um adolescente amaldiçoado.",
+      "localizacao": 35.652832, 139.839478,
+      "data": "03/10/2020",
+      "imagem": "https://i.postimg.cc/vmdBcp4b/satoru-sorrindo.jpg"
     },
     {
       "id": 4,
-      "nome": "X-Tudo",
-      "descricao": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
-      "preco": 14.5,
-      "categoria_id": 1
-    },
-    {
-      "id": 5,
-      "nome": "Coca cola 350ml",
-      "descricao": "",
-      "preco": 5.5,
-      "categoria_id": 2
-    },
-    {
-      "id": 6,
-      "nome": "Coca cola 600ml",
-      "descricao": "",
-      "preco": 7.5,
-      "categoria_id": 2
+      "nome": "Cristo Redentor",
+      "descricao": "Cristo Redentor é uma estátua art déco que retrata Jesus Cristo, localizada no topo do morro o Corcovado, a 709 metros acima do nível do mar, com vista para parte considerável da cidade brasileira do Rio de Janeiro.",
+      "localizacao": -22.951804, -43.210760,
+      "data": "03/10/2020",
+      "imagem": "https://i.postimg.cc/WbgtTN4X/cristo-costas.jpg"
     }
   ],
-  "categorias": [
+  "fotos": [
     {
       "id": 1,
-      "nome": "Hambúrgueres"
+      "imagem": "https://i.postimg.cc/D0qgrV2F/old-T-arquibancada.jpg",
+      "descricao": "Uma foto da arquibancada do Estádio Old Trafford",
+      "album-id": "1"
     },
     {
       "id": 2,
-      "nome": "Refrigerantes"
+      "imagem": "https://i.postimg.cc/pT5kdh4m/old-T-entrada.jpg",
+      "descricao": "Uma foto da entrada do Estádio Old Trafford",
+      "album-id": "1"
+    },
+    {
+      "id": 3,
+      "imagem": "https://i.postimg.cc/rwh9CNLd/old-T-gramado.jpg",
+      "descricao": "Uma foto do gramado do Estádio Old Trafford",
+      "album-id": "1"
+    },
+    {
+      "id": 4,
+      "imagem": "https://i.postimg.cc/RCfX5tw8/old-T-jogo.jpg",
+      "descricao": "Uma foto de uma noite de jogo no Estádio Old Trafford",
+      "album-id": "1"
+    },
+    {
+      "id": 5,
+      "imagem": "https://i.postimg.cc/pXHk2dZd/old-T-jogo2.jpg",
+      "descricao": "Uma foto de uma tarde de jogo no Estádio Old Trafford",
+      "album-id": "1"
+    },
+    {
+      "id": 6,
+      "imagem": "https://i.postimg.cc/RV7sftFf/eiffel-arvore.jpg",
+      "descricao": "Uma foto da Torre Eiffel vista de trás de uma árvore",
+      "album-id": "2"
+    },
+    {
+      "id": 7,
+      "imagem": "https://i.postimg.cc/x19sPdJZ/eiffel-close.jpg",
+      "descricao": "Uma foto da Torre Eiffel vista de baixo",
+      "album-id": "2"
+    },
+    {
+      "id": 8,
+      "imagem": "https://i.postimg.cc/hPWZfsSc/eiffel-dia.jpg",
+      "descricao": "Uma foto da Torre Eiffel vista de longe",
+      "album-id": "2"
+    },
+    {
+      "id": 9,
+      "imagem": "https://i.postimg.cc/x8r5NjVt/eiffel-missel.jpg",
+      "descricao": "Uma foto de um por do sol na Torre Eiffel",
+      "album-id": "2"
+    },
+    {
+      "id": 10,
+      "imagem": "https://i.postimg.cc/NfkDLwJk/eiffel-noite.jpg",
+      "descricao": "Uma foto da Torre Eiffel de noite",
+      "album-id": "2"
+    },
+    {
+      "id": 11,
+      "imagem": "https://i.postimg.cc/d0pmgQ3w/satoru-assustado.jpg",
+      "descricao": "Uma foto do Satoru Gojo assustado",
+      "album-id": "3"
+    },
+    {
+      "id": 12,
+      "imagem": "https://i.postimg.cc/gcvqBWWb/satoru-briga.jpg",
+      "descricao": "Uma foto do Satoru Gojo preparado para uma luta",
+      "album-id": "3"
+    },
+    {
+      "id": 13,
+      "imagem": "https://i.postimg.cc/SRpLNZcP/satoru-cidade.jpg",
+      "descricao": "Uma foto do Satoru Gojo no alto de um prédio",
+      "album-id": "3"
+    },
+    {
+      "id": 14,
+      "imagem": "https://i.postimg.cc/KjrPKnN8/satoru-mascara.jpg",
+      "descricao": "Uma foto do Satoru Gojo de máscara",
+      "album-id": "3"
+    },
+    {
+      "id": 15,
+      "imagem": "https://i.postimg.cc/fRgx0Wxm/satoru-poder.jpg",
+      "descricao": "Uma foto do poder de Satoru Gojo",
+      "album-id": "3"
+    },
+    {
+      "id": 16,
+      "imagem": "https://i.postimg.cc/kMthJzPT/cristo-cabe-a.jpg",
+      "descricao": "Uma foto do rosto do Cristo Redentor",
+      "album-id": "4"
+    },
+    {
+      "id": 17,
+      "imagem": "https://i.postimg.cc/LsC05Msb/cristo-lado.jpg",
+      "descricao": "Uma foto de frente do Cristo Redentor",
+      "album-id": "4"
+    },
+    {
+      "id": 18,
+      "imagem": "https://i.postimg.cc/0N2B9N9S/cristo-montanha.jpg",
+      "descricao": "Uma foto do caminho para chegar até o Cristo Redentor",
+      "album-id": "4"
+    },
+    {
+      "id": 19,
+      "imagem": "https://i.postimg.cc/NjxnhXvY/cristo-noite.jpg",
+      "descricao": "Uma foto do Cristo Redentor feita a noite",
+      "album-id": "4"
+    },
+    {
+      "id": 20,
+      "imagem": "https://i.postimg.cc/j5D3Jkwd/crsito-cima.jpg",
+      "descricao": "Uma foto do Cristo Redentor vista de cima",
+      "album-id": "4"
+    }
+  ],
+  "destaques": [
+    {
+      "id": 1,
+      "id-album": 1,
+      "texto": "O Old Trafford é um estádio de futebol, localizado no distrito de Trafford, condado da Grande Manchester, Inglaterra. É a sede do Manchester United, clube da Premier League inglesa. Tendo uma capacidade de 74.310 pessoas."
+    },
+    {
+      "id": 2,
+      "id-album": 2,
+      "texto": "A Torre Eiffel é uma torre treliçada de ferro forjado no Champ de Mars, em Paris, França. Construída a partir de 1887, recebeu o nome do engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre."
+    },
+    {
+      "id": 3,
+      "id-album": 3,
+      "texto": "Satoru Gojo é um personagem fictício da série de anime e mangá Jujutsu Kaisen criado por Gege Akutami. Ele fez sua primeira aparição no prequel Jujutsu Kaisen 0 como o mestre de Yuta Okkotsu, um adolescente amaldiçoado."
+    },
+    {
+      "id": 4,
+      "id-album": 4,
+      "texto": "Cristo Redentor é uma estátua art déco que retrata Jesus Cristo, localizada no topo do morro o Corcovado, a 709 metros acima do nível do mar, com vista para parte considerável da cidade brasileira do Rio de Janeiro."
     }
   ]
 }
