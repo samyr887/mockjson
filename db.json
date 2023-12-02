@@ -4,7 +4,7 @@
       "id": 1,
       "nome": "Old Trafford",
       "descricao": "O Old Trafford é um estádio de futebol, localizado no distrito de Trafford, condado da Grande Manchester, Inglaterra. É a sede do Manchester United, clube da Premier League inglesa. Tendo uma capacidade de 74.310 pessoas.",
-      "localizacao": 53.463493, -2.292279,
+      "localizacao": 53.463493,
       "data": "15/05/2019",
       "imagem": "https://i.postimg.cc/dVLNBXfd/old-T-noite.jpg"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "nome": "Torre Eiffel",
       "descricao": "A Torre Eiffel é uma torre treliçada de ferro forjado no Champ de Mars, em Paris, França. Construída a partir de 1887, recebeu o nome do engenheiro Gustave Eiffel, cuja empresa projetou e construiu a torre.",
-      "localizacao": 48.862140, 2.289971,
+      "localizacao": 48.862140,
       "data": "20/01/2016",
       "imagem": "https://i.postimg.cc/RVFnm5HY/eiffel-tarde.jpg"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "nome": "Satoru Gojo",
       "descricao": "Satoru Gojo é um personagem fictício da série de anime e mangá Jujutsu Kaisen criado por Gege Akutami. Ele fez sua primeira aparição no prequel Jujutsu Kaisen 0 como o mestre de Yuta Okkotsu, um adolescente amaldiçoado.",
-      "localizacao": 35.652832, 139.839478,
+      "localizacao": 35.652832,
       "data": "03/10/2020",
       "imagem": "https://i.postimg.cc/vmdBcp4b/satoru-sorrindo.jpg"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "nome": "Cristo Redentor",
       "descricao": "Cristo Redentor é uma estátua art déco que retrata Jesus Cristo, localizada no topo do morro o Corcovado, a 709 metros acima do nível do mar, com vista para parte considerável da cidade brasileira do Rio de Janeiro.",
-      "localizacao": -22.951804, -43.210760,
+      "localizacao": -22.951804,
       "data": "03/10/2020",
       "imagem": "https://i.postimg.cc/WbgtTN4X/cristo-costas.jpg"
     }
